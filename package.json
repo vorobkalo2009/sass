@@ -1,24 +1,26 @@
 {
-  "name": "parcel-project-template",
+  "name": "sass",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://goitacademy.github.io/parcel-project-template",
+  "homepage": "https://vorobkalo0902.github.io/sass",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "build": "parcel build src/*.html --public-url /sass/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://github.com/vorobkalo2009/sass.git"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "dependencies": {
-    "modern-normalize": "^1.1.0"
+    "debounce": "^1.2.1",
+    "modern-normalize": "^1.1.0",
+    "notiflix": "^3.2.6"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
